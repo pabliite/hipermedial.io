@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoy es mi cumpleaños??</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Hoy es mi cumpleaños??</h1>
+        <form id="birthdayForm">
+            <label for="birthday-day">Día:</label>
+            <input type="number" id="birthday-day" name="birthday-day" min="1" max="31" required>
+            <label for="birthday-month">Mes:</label>
+            <input type="number" id="birthday-month" name="birthday-month" min="1" max="12" required>
+            <button type="submit">Verificar</button>
+        </form>
+        <div id="result"></div>
+        <button id="retryButton" class="hidden">Preguntar otra vez</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="./js/cumpleanios.js"></script>
+</body>
+</html>

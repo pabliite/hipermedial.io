@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/moria2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.soundboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sound-button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.sound-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
