@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por si o por no</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Preguntá por si o por no!</h1>
+        <form id="questionForm">
+            <label for="question">Escribe tu pregunta:</label>
+            <input type="text" id="question" name="question" required>
+            <button type="submit">Preguntar</button>
+        </form>
+        <div id="result"></div>
+        <img id="resultGif" class="hidden" alt="Resultado GIF">
+        <button id="retryButton" class="hidden">Preguntar otra vez</button>
+    </div>
+    <script src="./js/por_si_o_por_no.js"></script>
+</body>
+</html>
+

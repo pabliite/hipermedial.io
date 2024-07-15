@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/puaj.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background-image 1s ease, opacity 1s ease;
+    opacity: 1; /* Ajustar la opacidad inicial */
+}
+
+.break-image {
+    background-image: url('../img/milei_quebrado.webp');
+}
+
+.dark-mode {
+    opacity: 0.2; /* Ajustar la opacidad oscura */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.countdown {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown > div {
+    margin: 0 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#countdown > div > span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#countdown > div > div {
+    font-size: 0.8em;
+}
+

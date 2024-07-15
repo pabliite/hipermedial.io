@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondria me</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        min-width: 100%;
+        min-height: 100%;
+      }
+
+      canvas {
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .sitter {
+        position: fixed;
+        bottom: 15px;
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .watch {
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.7);
+        display: inline-block;
+        padding: 10px 15px;
+      }
+
+      .left {
+        left: 15px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="sitter left">
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

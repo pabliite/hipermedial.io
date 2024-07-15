@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffc0cb; /* Fondo rosa */
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Fuente más formal */
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    color: #4a4a4a; /* Color de texto oscuro */
+}
+
+form label {
+    font-size: 1.2em;
+    color: #4a4a4a; /* Color de texto oscuro */
+}
+
+form input[type="text"] {
+    font-size: 1em;
+    padding: 10px;
+    border: 2px solid #ff69b4; /* Borde rosa fuerte */
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    max-width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #ff69b4; /* Rosa fuerte */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493; /* Rosa medio */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /* Color de texto oscuro */
+}
+
+.hidden {
+    display: none;
+}
+
+#resultGif {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
